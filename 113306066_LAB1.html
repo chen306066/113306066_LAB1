@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homepage113306066</title>
+</head>
+
+<thead>
+<body>
+	<table border="1">
+		
+		<tr>
+			<th colspan="3">About -- 113306066</th>			
+		</tr>	
+
+
+		<tr>
+			<td rowspan="3">
+				<img src = "sparkler.jpg" alt = "sparkler image" style="display: block; margin: 0 auto;" width = "90%" height = "90px"/>
+				<figcaption>personal photo</figcaption>
+				<td colspan="2">
+				<label> Name:
+					<input name = "name" type = "text" size = "25" maxlength = "30" required>	
+				</label>	
+				
+				<form>
+				<label>Gender:	
+					<input type="radio" name="gender" value="male"> Male
+					<input type="radio" name="gender" value="female"> Female
+					<input type="radio" name="gender" value="other"> Other
+				</label>	
+				</form>	
+				</td>
+			</td>
+			
+		</tr>
+
+
+		<tr>
+			<td>
+				<form action="/action_page.php">
+					<label for="county">County:</label>		
+					<select name="county">
+						<option value="taipei">Taipei</option>
+						<option value="tainan">Tainan</option>
+						<option value="taichung">Taichung</option>
+						<option value="taoyuan">Taoyuan</option>
+					</select>	
+
+
+			</td>
+			<td>
+				<form action="/action_page.php">
+					<label for="birthday">Birthday:</label>
+					<input type="date" id="birthday" name="birthday" required>
+				</form>	
+			</td>	
+		</tr>	
+
+
+		<tr>
+			<td colspan="2">
+				<form method = "post" action = "http://www.deitel.com">
+				<label> E-mail:
+					<input name= "email" type = "email" size = "25" maxlength = "30" required>	
+				</label>	
+			</td>	
+		</tr>	
+
+
+		<tr>
+			<td>Hobby</td>
+			<td colspan="2">
+				<form action="/action_page.php" method="get">
+					<input type="checkbox" name="hobby" value="swimming"> Swimming
+					<input type="checkbox" name="hobby" value="volleyball"> Volleyball
+					<input type="checkbox" name="hobby" value="movie"> Movie
+					<input type="checkbox" name="hobby" value="game"> Game
+					<input type="checkbox" name="hobby" value="sleep"> sleep
+				</form>	
+
+			</td>
+		</tr>
+
+
+		<tr>
+			<td>Skill</td>
+			<td colspan="2">
+				<form action="/action_page.php" method="get">
+					<input type="checkbox" name="skill" value="Java"> Java
+					<input type="checkbox" name="skill" value="HTML"> HTML
+					<input type="checkbox" name="skill" value="Python"> Python
+					<input type="checkbox" name="skill" value="Microsoft Office"> Microsoft Office
+					<input type="checkbox" name="skill" value="Premiere"> Premiere
+				</form>	
+			</td>	
+		</tr>
+
+
+		<tr>
+			<td>Say Something</td>	
+			<td colspan="2">
+			<form>	
+				<textarea id="message" placeholder="Say something here." rows="5" cols="50"></textarea>	
+			</form>
+			</td>	
+
+		</tr>
+
+
+		<tr>
+			<td colspan="3">
+			<form method = "post" action = "http://www.deitel.com">	
+			<input type="submit"name= "submit"></input>
+			<input type="reset" name= "reset"></input>
+			</td>	
+		</tr>
+
+	</table>	
+</body>
+</thead>	
